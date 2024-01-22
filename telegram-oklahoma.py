@@ -6,7 +6,7 @@ import time
 # Adicione esta linha no início do seu script para obter o Chat ID
 # Substitua '6481332485:AAFIWoG5u99v2Lyo-SEqtZKtneu9-9_P9L0' pelo token real do seu bot
 from telegram import Bot
-bot = Bot(token='6481332485:AAFIWoG5u99v2Lyo-SEqtZKtneu9-9_P9L0')
+bot = Bot(token='6481332485exemple-9_P9L0')
 chat_id = bot.get_updates()[-1].message.chat_id
 
 # Função para o comando /start
